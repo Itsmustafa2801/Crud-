@@ -20,6 +20,7 @@ function App() {
     setData(Data)
   }, []);
 // for edit
+  
   const handleEdit = (id) => {
     alert(id);
     setUpdate(true)
